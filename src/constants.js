@@ -1,0 +1,11 @@
+
+export const BATCH_INSERT_TICKET = 'BATCH_INSERT_TICKET';
+export const UPDATE_TICKET = 'UPDATE_TICKET';
+export const INSERT_TICKET = 'INSERT_TICKET';
+export const DELETE_TICKET = 'DELETE_TICKET';
+
+export const STATES = {
+    CLOSED: 'CLOSED',
+    OPEN: 'OPEN',
+    BLOCKED: 'BLOCKED'
+};
