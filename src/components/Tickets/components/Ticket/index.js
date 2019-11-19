@@ -46,7 +46,7 @@ class Ticket extends React.Component {
                         Message : {message}
                     </Typography>
                 </CardContent>
-                <CardActions classes={classes.actions}>
+                <CardActions className={classes.actions}>
                     <Button size="small">Details</Button>
                     <Button size="small" variant="contained" color="secondary"
                             onClick={() => blockTicket(ticket.id)}>Block</Button>
