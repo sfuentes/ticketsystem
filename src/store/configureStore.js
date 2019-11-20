@@ -7,7 +7,7 @@ import rootReducer from './reducers/root'
 import PouchDB from 'pouchdb'
 import {BATCH_INSERT_TICKET, DELETE_TICKET, INSERT_TICKET, UPDATE_TICKET} from '../constants';
 
-export const db = new PouchDB('http://34.65.140.211:5984/couchtickets', {
+export const db = new PouchDB('http://34.65.193.113:5984/couchtickets', {
     live: false
 });
 
