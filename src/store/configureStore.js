@@ -6,8 +6,8 @@ import {composeWithDevTools} from 'redux-devtools-extension/developmentOnly';
 import rootReducer from './reducers/root'
 import PouchDB from 'pouchdb'
 import {BATCH_INSERT_TICKET, DELETE_TICKET, INSERT_TICKET, UPDATE_TICKET} from '../constants';
-
-export const db = new PouchDB('http://34.65.193.113:5984/couchtickets', {
+import config from '../../config';
+export const db = new PouchDB(`${config.host}${config.db}`, {
     live: false
 });
 
